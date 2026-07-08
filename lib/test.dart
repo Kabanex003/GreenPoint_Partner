@@ -229,8 +229,8 @@ class _GreenPointState extends State<GreenPoint> {
                   Container(
                     width: 100,
                     height: 100,
-                    decoration: BoxDecoration(color: Colors.grey[200], borderRadius: BorderRadius.circular(12)),
-                    child: const Icon(Icons.image, color: Colors.grey), // แทนที่ด้วย Image.asset
+                    decoration: BoxDecoration(shape: BoxShape.circle, color: Colors.grey[100]),
+                    child:Image.network('https://mnrhcoopshop.com/uploadpicpdc/202501219388543.jpg',fit: BoxFit.cover,) // แทนที่ด้วย Image.asset
                   ),
                   const SizedBox(height: 8),
                   ElevatedButton(
